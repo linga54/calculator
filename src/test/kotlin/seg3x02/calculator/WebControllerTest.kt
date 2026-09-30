@@ -93,3 +93,6 @@ class WebControllerTest {
             .andExpect(MockMvcResultMatchers.model().attribute("error", "OperationFormatError"))
     }
 }
+
+//I had made an error with my file, my home page was not displaying the result of the calculation, so I had to fix that. I also added a test for decimal addition, which was not in the original tests.
+And my page was showing without any style but with no apparent reason, so I had to fix that as well. 
